@@ -9,7 +9,7 @@ public class ex8 : MonoBehaviour
     void Start()
     {
         int random=1;
-        while (random >= 1 && random <= 20)
+        while (true)
         {
             random= Random.Range(1,20);
             if(random == 5) 
